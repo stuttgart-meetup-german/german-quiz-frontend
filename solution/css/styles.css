@@ -329,7 +329,7 @@ body {
   background-color: var(--white);
   border-radius: 999px;
   position: relative;
-  margin: auto 0 8.75rem 0;
+  margin: auto 0 7.75rem 0;
 }
 
 .progress__percentage{
