@@ -202,7 +202,7 @@ body {
 
 .quiz__topic, .quiz__answer{
   width: 35.25rem;
-  flex: 0 0 6rem;
+  flex: 0 0 5rem;
   background-color: var(--white);
   padding: 0 1.25em;
   border-radius: 1.25rem;
@@ -470,7 +470,7 @@ body {
 
 .btn{
   color: var(--white);
-  height: 5.75rem;
+  height: 4.75rem;
   border-radius: 1.5rem;
   border: none;
   outline: 0;
