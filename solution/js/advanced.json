@@ -1,0 +1,157 @@
+[{
+    "id": "Q5",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Weißt du, ______ er aus dem Urlaub zurückkommt?“",
+    "options": [
+      {"text": "wann", "id": "A"},
+      {"text": "wenn", "id": "B"},
+      {"text": "als", "id": "C"},
+      {"text": "damit", "id": "D"}
+    ],
+    "answer": "A",
+    "explanation": "Das Wort „wann“ ist hier korrekt, weil es sich um eine indirekte Frage handelt, die den Zeitpunkt beschreibt, zu dem jemand aus dem Urlaub zurückkommt. „Wenn“ wäre falsch, da es eine Bedingung ausdrückt. „Als“ wird für einmalige Ereignisse in der Vergangenheit verwendet und ist hier unpassend. „Damit“ macht keinen Sinn, weil es eine Absicht oder einen Zweck beschreibt und nicht in einen solchen Satz passt."
+  },
+  {
+    "id": "Q74",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Hast du deinem Freund den Schlüssel gegeben? -Ja, gestern habe ______ gegeben.“",
+    "options": [
+      { "text": "ich ihm ihn", "id": "A" },
+      { "text": "ich ihn ihm", "id": "B" },
+      { "text": "ihm ich ihn", "id": "C" },
+      { "text": "ihn ihm ich", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚ich ihn ihm.‘ In der deutschen Satzstruktur kommt das Pronomen für das Akkusativobjekt (‚ihn‘) vor dem Pronomen für das Dativobjekt (‚ihm‘). ‚Ich‘ steht korrekt am Anfang der Aussage. Die anderen Kombinationen widersprechen der üblichen Reihenfolge der Pronomen in der deutschen Grammatik."
+  },
+  {
+    "id": "Q85",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Keine Sorge, die Aufgabe ______ leicht und schnell ______.“",
+    "options": [
+      { "text": "kann - erledigt werden", "id": "A" },
+      { "text": "lässt sich - erledigen", "id": "B" },
+      { "text": "ist - erledigen lassen", "id": "C" },
+      { "text": "muss - erledigt werden", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚lässt sich - erledigen.‘ ‚Lässt sich‘ wird verwendet, um die Möglichkeit oder Machbarkeit auszudrücken (‚Die Aufgabe lässt sich leicht erledigen‘). ‚Kann - erledigt werden‘ ist ebenfalls korrekt, aber ‚lässt sich - erledigen‘ ist stilistisch passender für den Kontext. ‚Ist - erledigen lassen‘ ist grammatikalisch falsch, da ‚ist‘ nicht in Verbindung mit ‚erledigen lassen‘ verwendet wird. ‚Muss - erledigt werden‘ drückt Notwendigkeit aus, was hier nicht gemeint ist."
+  },
+  {
+    "id": "Q15",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„______ Auto steht vor der Tür? – Das gehört meinem Nachbarn.“",
+    "options": [
+      {"text": "Wessen", "id": "A"},
+      {"text": "Welches", "id": "B"},
+      {"text": "Was für ein", "id": "C"},
+      {"text": "Wie viele", "id": "D"}
+    ],
+    "answer": "A",
+    "explanation": "Das Wort „Wessen“ ist hier korrekt, da es nach dem Besitzer eines Gegenstands fragt. ‚Welches‘ wäre falsch, da es nach einer Auswahl fragt (z. B. ‚Welches Auto soll ich nehmen?‘). ‚Was für ein‘ beschreibt die Art oder Kategorie des Autos (z. B. ‚Was für ein Auto möchtest du kaufen?‘). ‚Wie viele‘ ist unpassend, da es sich auf eine Anzahl bezieht (z. B. ‚Wie viele Autos stehen dort?‘)."
+  },
+  {
+    "id": "Q89",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Sprichst du von Peter, ______ der große Garten gehört? -Nein, ich meine Paul, ______ Bruder Lehrer ist.“",
+    "options": [
+      { "text": "den - sein", "id": "A" },
+      { "text": "wem - des", "id": "B" },
+      { "text": "dem - dessen", "id": "C" },
+      { "text": "den - dessen", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚dem - dessen.‘ ‚Dem‘ ist der Dativ, der mit dem Verb ‚gehören‘ verwendet wird (‚Peter, dem der große Garten gehört‘). ‚Dessen‘ ist das Genitiv-Relativpronomen für Maskulina und Neutra (‚Paul, dessen Bruder Lehrer ist‘). ‚Den‘ ist der Akkusativ und passt nicht mit ‚gehört.‘ ‚Wem‘ ist eine Frageform und grammatikalisch falsch im Relativsatz. ‚Des‘ ist falsch, da hier ‚dessen‘ als Pronomen benötigt wird."
+  },
+  {
+    "id": "Q91",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Paul träumte schon als kleiner Junge davon, Gitarre ______.“",
+    "options": [
+      { "text": "zu spielen lernen", "id": "A" },
+      { "text": "spielen lernen", "id": "B" },
+      { "text": "spielen zu lernen", "id": "C" },
+      { "text": "lernen zu spielen", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚spielen lernen.‘ Im Deutschen folgt ‚lernen‘ direkt auf den Infinitiv, ohne ‚zu‘ (‚Gitarre spielen lernen‘). ‚Zu spielen lernen‘ ist falsch, da ‚zu‘ hier nicht notwendig ist. ‚Spielen zu lernen‘ und ‚lernen zu spielen‘ sind grammatikalisch korrekt, haben aber eine leicht andere Betonung und passen nicht stilistisch zum Satz."
+  },
+  {
+    "id": "Q95",
+    "question": "Hätten wir diesen Fehler nicht _____, dann _____ wir jetzt weniger Probleme.",
+    "options": [
+        { "text": "gemacht haben - haben", "id": "A" },
+        { "text": "gemacht - hätten", "id": "B" },
+        { "text": "machen würden - hätten", "id": "C" },
+        { "text": "machen hätten - hätten", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚gemacht - hätten.‘ Dieser Satz steht im Konjunktiv II der Vergangenheit, der genutzt wird, um irreale Bedingungen in der Vergangenheit auszudrücken (‚Hätten wir diesen Fehler nicht gemacht...‘). Option A ist falsch, da ‚gemacht haben - haben‘ den Perfekt benutzt, der hier unpassend ist. Option C ist falsch, da ‚machen würden‘ die Gegenwart oder Zukunft ausdrückt. Option D ist grammatikalisch inkorrekt, da ‚machen hätten‘ keine korrekte Kombination ist."
+  },
+  {
+    "id": "Q94",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Viele gehen regelmäßig ins Fitnessstudio, ______ sie ihre Gesundheit verbessern, ______ sie dafür auf andere Aktivitäten verzichten müssen.“",
+    "options": [
+      { "text": "um - wenn auch", "id": "A" },
+      { "text": "sodass - als ob", "id": "B" },
+      { "text": "damit - obwohl", "id": "C" },
+      { "text": "weil - während", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚damit - obwohl.‘ ‚Damit‘ wird verwendet, um einen Zweck oder ein Ziel zu beschreiben (‚damit sie ihre Gesundheit verbessern‘). ‚Obwohl‘ drückt einen Gegensatz aus (‚obwohl sie dafür auf andere Aktivitäten verzichten müssen‘). ‚Um - wenn auch‘ ist unpassend, da ‚wenn auch‘"
+  },
+  {
+    "id": "Q92",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Viele machen regelmäßig Sport, ______ sie fit bleiben, ______ sie oft nach der Arbeit müde sind.“",
+    "options": [
+      { "text": "um - wenn auch", "id": "A" },
+      { "text": "sodass - als ob", "id": "B" },
+      { "text": "damit - obwohl", "id": "C" },
+      { "text": "weil - während", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚damit - obwohl.‘ ‚Damit‘ drückt einen Zweck aus (‚damit sie fit bleiben‘). ‚Obwohl‘ leitet einen Gegensatz ein (‚obwohl sie müde sind‘). ‚Um - wenn auch‘ passt nicht, da ‚wenn auch‘ keine logische Verbindung schafft. ‚Sodass - als ob‘ ist ebenfalls falsch, da diese Kombination keinen Sinn ergibt. ‚Weil - während‘ passt grammatikalisch, jedoch nicht zur Bedeutung des Satzes."
+  },
+  {
+    "id": "Q93",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„______ Nachmittag haben wir ______ der Kälte einen Ausflug ______ den Park gemacht.“",
+    "options": [
+      { "text": "An - wegen - bis", "id": "A" },
+      { "text": "Im - statt - in", "id": "B" },
+      { "text": "Am - trotz - durch", "id": "C" },
+      { "text": "Während - wegen - durch", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚Am - trotz - durch.‘ ‚Am Nachmittag‘ ist die korrekte Präposition für eine Zeitangabe. ‚Trotz der Kälte‘ drückt aus, dass die Kälte kein Hindernis für den Ausflug war. ‚Durch den Park‘ beschreibt die Richtung des Ausflugs. ‚An - wegen - bis‘ ist falsch, da ‚bis‘ nicht passt. ‚Im - statt - in‘ ist falsch, da ‚statt der Kälte‘ keinen Sinn ergibt. ‚Während - wegen - durch‘ ist unlogisch, da ‚während‘ hier keinen Bezug zu den anderen Satzteilen hat."
+  },
+  {
+    "id": "Q89",
+    "question": "Aufgrund des schlechten Wetters _____ wir die geplante Wanderung nicht _____ .",
+    "options": [
+        { "text": "haben - machen können", "id": "A" },
+        { "text": "konnten - zu machen", "id": "B" },
+        { "text": "haben - gemacht dürfen", "id": "C" },
+        { "text": "mussten - absagen", "id": "D" }
+    ],
+    "answer": "A",
+    "explanation": "Die richtige Antwort ist ‚haben - machen können.‘ Das Perfekt wird hier korrekt mit ‚haben‘ gebildet, und die Modalverbkonstruktion ‚machen können‘ beschreibt die Unmöglichkeit der Handlung. ‚Konnten - zu machen‘ ist falsch, da ‚zu machen‘ in diesem Zusammenhang grammatikalisch nicht korrekt ist. ‚Haben - gemacht dürfen‘ ist ungrammatisch, da ‚dürfen‘ nicht in der Perfektform mit ‚haben‘ genutzt wird. ‚Mussten - absagen‘ passt zwar zur Situation, verwendet jedoch andere Verben und verändert die Bedeutung des Satzes."
+  },
+  {
+    "id": "Q90",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Ein Junge rannte plötzlich los und lief ______ aus dem Raum.“",
+    "options": [
+      { "text": "weinender", "id": "A" },
+      { "text": "weinende", "id": "B" },
+      { "text": "weinend", "id": "C" },
+      { "text": "weinendem", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚weinend.‘ ‚Weinend‘ ist das Partizip Präsens und beschreibt die Handlung des Jungen im Verlauf (‚lief weinend aus dem Raum‘). ‚Weinender‘ und ‚weinende‘ sind Adjektivformen, die in diesem Kontext nicht passen. ‚Weinendem‘ ist der Dativ und ebenfalls unpassend."
+  },
+  {
+    "id": "Q86",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Warum hast du den Kuchen gebacken? -Für Anna. Sie liebt Schokolade und wird sich bestimmt sehr ______ freuen.“",
+    "options": [
+      { "text": "dafür", "id": "A" },
+      { "text": "darauf", "id": "B" },
+      { "text": "darüber", "id": "C" },
+      { "text": "damit", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚darüber.‘ ‚Sich freuen über‘ wird verwendet, wenn die Freude sich auf etwas Konkretes oder Gegenwärtiges bezieht (‚Sie wird sich sehr darüber freuen, dass du den Kuchen gebacken hast‘). ‚Dafür‘ ist falsch, da es sich auf eine Absicht oder einen Zweck bezieht. ‚Darauf‘ wird für zukünftige Ereignisse verwendet, was hier nicht passt. ‚Damit‘ beschreibt ein Mittel oder Werkzeug und ist unpassend."
+  }
+]

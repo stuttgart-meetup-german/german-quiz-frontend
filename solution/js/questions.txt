@@ -1,0 +1,721 @@
+{
+    "id": "Q1",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„______ ich meine Wohnung gekauft habe, habe ich etwa 300.000 Euro bezahlt!“",
+    "options": [
+      {"text": "Wann", "id": "A"},
+      {"text": "Wenn", "id": "B"},
+      {"text": "Als", "id": "C"},
+      {"text": "Ob", "id": "D"}
+    ],
+    "answer": "C",
+    "explanation": "Das Wort „als“ wird verwendet, um sich auf einen bestimmten Zeitpunkt oder eine Zeitspanne in der Vergangenheit zu beziehen. In diesem Fall beschreibt der Satz eine einmalige Situation in der Kindheit. Die anderen Wörter sind unpassend: „wann“ wird für Fragen benutzt, „wenn“ für wiederholte oder hypothetische Ereignisse, und „ob“ für indirekte Ja-/Nein-Fragen."
+},
+{
+  "id": "Q4",
+  "question": "Welches Wort passt am besten in die Lücke?\n\n„______ du Zeit hast, besuche mich.“",
+  "options": [
+      {"text": "Wann", "id": "A"},
+      {"text": "Wenn", "id": "B"},
+      {"text": "Als", "id": "C"},
+      {"text": "Ob", "id": "D"}
+  ],
+  "answer": "B",
+  "explanation": "Das Wort „wenn“ ist hier korrekt, da es eine Bedingung ausdrückt: ‚falls du Zeit hast.‘ „Wann“ wäre falsch, da es eine Zeitangabe oder Frage beschreibt, nicht jedoch eine Bedingung. „Als“ ist falsch, da es sich auf ein einmaliges Ereignis in der Vergangenheit bezieht. „Ob“ wird für Ja-/Nein-Fragen verwendet und passt hier ebenfalls nicht."
+}
+  
+
+  {
+    "id": "Q5",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Weißt du, ______ er aus dem Urlaub zurückkommt?“",
+    "options": [
+      {"text": "wann", "id": "A"},
+      {"text": "wenn", "id": "B"},
+      {"text": "als", "id": "C"},
+      {"text": "damit", "id": "D"}
+    ],
+    "answer": "A",
+    "explanation": "Das Wort „wann“ ist hier korrekt, weil es sich um eine indirekte Frage handelt, die den Zeitpunkt beschreibt, zu dem jemand aus dem Urlaub zurückkommt. „Wenn“ wäre falsch, da es eine Bedingung ausdrückt. „Als“ wird für einmalige Ereignisse in der Vergangenheit verwendet und ist hier unpassend. „Damit“ macht keinen Sinn, weil es eine Absicht oder einen Zweck beschreibt und nicht in einen solchen Satz passt."
+  }
+  
+  {
+    "id": "Q6",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Am Wochenende fahren wir ______ Italien.“",
+    "options": [
+      {"text": "nach", "id": "A"},
+      {"text": "zu", "id": "B"},
+      {"text": "in", "id": "C"},
+      {"text": "bei", "id": "D"}
+    ],
+    "answer": "A",
+    "explanation": "Das Wort „nach“ ist hier korrekt, da es für Richtungen zu Städten und Ländern ohne Artikel verwendet wird, wie hier mit ‚Italien.‘ „Zu“ wird für Ziele wie Personen, Veranstaltungen oder Orte innerhalb einer Region verwendet (z. B. ‚zum Arzt‘). „In“ wird verwendet, wenn es um das Hineingehen oder den Aufenthalt innerhalb eines Ortes geht (z. B. ‚in die Schule gehen‘). ‚Bei‘ beschreibt eine Nähe oder einen Aufenthalt in der Umgebung von etwas/jemandem und passt hier nicht."
+  }
+  
+  {
+    "id": "Q9",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Wir fahren dieses Jahr ______ Schweiz, um dort Ski zu fahren.“",
+    "options": [
+      {"text": "in die", "id": "A"},
+      {"text": "nach der", "id": "B"},
+      {"text": "zu der", "id": "C"},
+      {"text": "auf die", "id": "D"}
+    ],
+    "answer": "A",
+    "explanation": "Das Wort „in die“ ist hier korrekt, da ‚die Schweiz‘ ein Land mit Artikel ist und bei Bewegungen dorthin der Akkusativ mit ‚in‘ verwendet wird (z. B. ‚in die Schweiz fahren‘). ‚Nach der‘ ist falsch, da ‚nach‘ nur für Länder ohne Artikel verwendet wird (z. B. ‚nach Deutschland‘). ‚Zu der‘ passt nicht, da ‚zu‘ für Personen oder spezifische Ziele innerhalb einer Region verwendet wird (z. B. ‚zu meiner Freundin‘). ‚Auf die‘ wäre für Bewegungen auf Oberflächen oder Inseln (z. B. ‚auf die Insel‘), ist aber hier unpassend."
+  }
+
+  {
+    "id": "Q10",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Ich möchte dieses Jahr in den Sommerferien lieber ______ Insel fahren.“",
+    "options": [
+      {"text": "auf eine", "id": "A"},
+      {"text": "in eine", "id": "B"},
+      {"text": "zu einer", "id": "C"},
+      {"text": "nach der", "id": "D"}
+    ],
+    "answer": "A",
+    "explanation": "Das Wort „auf eine“ ist hier korrekt, da ‚auf‘ für Bewegungen oder Aufenthalte auf Inseln verwendet wird (z. B. ‚auf eine Insel fahren‘). ‚In eine‘ ist falsch, da ‚in‘ für geschlossene Räume oder Länder mit Artikel genutzt wird (z. B. ‚in die Schweiz fahren‘). ‚Zu einer‘ ist ebenfalls falsch, da ‚zu‘ für Personen oder spezifische Orte verwendet wird (z. B. ‚zu meiner Freundin‘). ‚Nach der‘ passt nicht, da ‚nach‘ nur für Länder ohne Artikel verwendet wird (z. B. ‚nach Italien fahren‘)."
+  }
+
+  {
+    "id": "Q13",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Der Mechaniker hat den beschädigten Auspuff vom Auto ______ .“",
+    "options": [
+      {"text": "abmontiert", "id": "A"},
+      {"text": "abgemontiert", "id": "B"},
+      {"text": "geabmontiert", "id": "C"},
+      {"text": "montiert ab", "id": "D"}
+    ],
+    "answer": "A",
+    "explanation": "Das Wort „abmontiert“ ist hier korrekt, da es das richtige Partizip Perfekt des Verbs ‚abmontieren‘ ist. ‚Abgemontiert‘ und ‚geabmontiert‘ sind grammatikalisch falsch, da ‚montieren‘ kein trennbares Verb ist, und ‚montiert ab‘ ist nicht im Partizip Perfekt."
+  }
+  
+  {
+    "id": "Q15",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„______ Auto steht vor der Tür? – Das gehört meinem Nachbarn.“",
+    "options": [
+      {"text": "Wessen", "id": "A"},
+      {"text": "Welches", "id": "B"},
+      {"text": "Was für ein", "id": "C"},
+      {"text": "Wie viele", "id": "D"}
+    ],
+    "answer": "A",
+    "explanation": "Das Wort „Wessen“ ist hier korrekt, da es nach dem Besitzer eines Gegenstands fragt. ‚Welches‘ wäre falsch, da es nach einer Auswahl fragt (z. B. ‚Welches Auto soll ich nehmen?‘). ‚Was für ein‘ beschreibt die Art oder Kategorie des Autos (z. B. ‚Was für ein Auto möchtest du kaufen?‘). ‚Wie viele‘ ist unpassend, da es sich auf eine Anzahl bezieht (z. B. ‚Wie viele Autos stehen dort?‘)."
+  }
+
+  {
+    "id": "Q18",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Obwohl er bereits in drei Ländern ______ hatte, entschied er sich, für seinen Masterabschluss nach Kanada zu ziehen.“",
+    "options": [
+      {"text": "studiert", "id": "A"},
+      {"text": "gestudiert", "id": "B"},
+      {"text": "studierte", "id": "C"},
+      {"text": "studiert gehabt", "id": "D"}
+    ],
+    "answer": "A",
+    "explanation": "Das Wort „studiert“ ist hier korrekt, da Verben mit der Endung ‚-ieren‘ (wie ‚studieren‘) im Partizip II kein Präfix ‚ge-‘ bekommen. ‚Gestudiert‘ ist ein häufiger Fehler, da das Präfix ‚ge-‘ bei diesen Verben nicht angewendet wird. ‚Studierte‘ ist die Präteritumform und passt hier nicht in die Perfektkonstruktion. ‚Studiert gehabt‘ ist grammatikalisch falsch, da diese Form im Deutschen nicht existiert."
+  }
+  
+
+  {
+    "id": "Q23",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Kannst du bitte ______ Mutter dort mit ______ Gepäck helfen?“",
+    "options": [
+      {
+        "text": "meiner, dem",
+        "id": "A"
+      },
+      {
+        "text": "meine, den",
+        "id": "B"
+      },
+      {
+        "text": "meiner, den",
+        "id": "C"
+      },
+      {
+        "text": "meine, dem",
+        "id": "D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Die richtige Antwort ist ‚meiner, dem‘. Das Verb ‚helfen‘ verlangt den Dativ, daher ist ‚meiner Mutter‘ korrekt, da ‚Mutter‘ feminin ist und im Dativ ‚meiner‘ verwendet wird. Nach ‚mit‘ steht ebenfalls der Dativ, daher ist ‚mit dem Gepäck‘ korrekt. ‚Meine‘ wäre Nominativ oder Akkusativ und falsch, da weder ‚helfen‘ noch ‚mit‘ diese Fälle verlangen. ‚Den‘ ist Akkusativ und passt nach ‚mit‘ ebenfalls nicht."
+  }
+  
+  {
+    "id": "Q26",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Der neue Chef ist ______ wichtiger Faktor, aber der größte Erfolg bleibt ______ Zusammenhalt des Teams.“",
+    "options": [
+      {
+        "text": "ein, der",
+        "id": "A"
+      },
+      {
+        "text": "ein, den",
+        "id": "B"
+      },
+      {
+        "text": "einen, der",
+        "id": "C"
+      },
+      {
+        "text": "einen, den",
+        "id": "D"
+      }
+    ],
+    "answer": "A",
+    "explanation": "Die richtige Antwort ist ‚ein, der‘. Das Verb ‚sein‘ verlangt den Nominativ, daher ist ‚ein wichtiger Faktor‘ korrekt, da ‚Faktor‘ maskulin ist und im Nominativ steht. Für ‚der größte Erfolg bleibt der Zusammenhalt‘ ist ‚der‘ korrekt, da ‚Zusammenhalt‘ ebenfalls maskulin ist und im Nominativ steht. ‚Einen‘ und ‚den‘ sind Akkusativ und falsch in diesem Kontext."
+  }
+  
+
+
+  {
+    "questions": [
+      {
+        "id": "Q39",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Ich ______ nach Hause gegangen und danach ______ etwas gegessen.“",
+        "options": [
+          { "text": "bin, habe", "id": "A" },
+          { "text": "habe, habe", "id": "B" },
+          { "text": "bin, bin", "id": "C" },
+          { "text": "habe, bin", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚bin, habe‘. Das Verb ‚gehen‘ bildet das Perfekt mit ‚sein‘ (‚bin gegangen‘), da es eine Bewegung ausdrückt. Das Verb ‚essen‘ bildet das Perfekt mit ‚haben‘ (‚habe gegessen‘)."
+      },
+      {
+        "id": "Q40",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Er ______ spät gekommen, aber er ______ trotzdem alles verstanden.“",
+        "options": [
+          { "text": "hat, ist", "id": "A" },
+          { "text": "ist, hat", "id": "B" },
+          { "text": "ist, ist", "id": "C" },
+          { "text": "hat, hat", "id": "D" }
+        ],
+        "answer": "B",
+        "explanation": "Die richtige Antwort ist ‚ist, hat‘. Das Verb ‚kommen‘ bildet das Perfekt mit ‚sein‘ (‚ist gekommen‘), da es eine Bewegung ausdrückt. Das Verb ‚verstehen‘ bildet das Perfekt mit ‚haben‘ (‚hat verstanden‘)."
+      },
+      {
+        "id": "Q41",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Sie ______ Ärztin geworden und ______ danach viele Patienten behandelt.“",
+        "options": [
+          { "text": "ist, ist", "id": "A" },
+          { "text": "ist, hat", "id": "B" },
+          { "text": "hat, hat", "id": "C" },
+          { "text": "hat, ist", "id": "D" }
+        ],
+        "answer": "B",
+        "explanation": "Die richtige Antwort ist ‚ist, hat‘. Das Verb ‚werden‘ bildet das Perfekt mit ‚sein‘ (‚ist geworden‘), da es eine Zustandsänderung ausdrückt. Das Verb ‚behandeln‘ bildet das Perfekt mit ‚haben‘ (‚hat behandelt‘)."
+      },
+      {
+        "id": "Q42",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Wir ______ zu Hause geblieben und ______ dann sofort eingeschlafen.“",
+        "options": [
+          { "text": "haben, haben", "id": "A" },
+          { "text": "sind, sind", "id": "B" },
+          { "text": "sind, haben", "id": "C" },
+          { "text": "haben, sind", "id": "D" }
+        ],
+        "answer": "B",
+        "explanation": "Die richtige Antwort ist ‚sind, sind‘. Das Verb ‚bleiben‘ bildet das Perfekt mit ‚sein‘ (‚sind geblieben‘), da es einen Zustand beschreibt. Das Verb ‚einschlafen‘ bildet das Perfekt ebenfalls mit ‚sein‘ (‚sind eingeschlafen‘), da es eine Zustandsänderung ausdrückt."
+      },
+      {
+        "id": "Q43",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Wir ______ einen Film geschaut und ______ danach Pizza gegessen.“",
+        "options": [
+          { "text": "haben, haben", "id": "A" },
+          { "text": "haben, sind", "id": "B" },
+          { "text": "sind, haben", "id": "C" },
+          { "text": "sind, sind", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚haben, haben‘. Das Verb ‚schauen‘ bildet das Perfekt mit ‚haben‘ (‚haben geschaut‘), da es eine Aktivität ausdrückt. Das Verb ‚essen‘ bildet das Perfekt ebenfalls mit ‚haben‘ (‚haben gegessen‘)."
+      }
+    ]
+  }
+
+  {
+    "id": "Q45",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Ich glaube, ______ Buch, ______ du mir empfohlen hast, ist wirklich spannend. Es war dir wichtig, ______ ich es lese.“",
+    "options": [
+      { "text": "das, das, dass", "id": "A" },
+      { "text": "dass, das, dass", "id": "B" },
+      { "text": "das, dass, das", "id": "C" },
+      { "text": "dass, dass, das", "id": "D" }
+    ],
+    "answer": "A",
+    "explanation": "Die richtige Antwort ist ‚das, das, dass‘. Das erste ‚das‘ ist ein Artikel und bezieht sich auf ‚Buch.‘ Das zweite ‚das‘ ist ein Relativpronomen, das sich ebenfalls auf ‚Buch‘ bezieht (‚das du mir empfohlen hast‘). Das dritte ‚dass‘ ist eine Konjunktion, die den Nebensatz ‚ich es lese‘ einleitet."
+  }
+
+  {
+    "id": "Q47",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Die Leistungen des Studenten waren ______ zufriedenstellend, obwohl es in manchen Fächern Schwächen gab.“",
+    "options": [
+      { "text": "im Allgemeinen", "id": "A" },
+      { "text": "im Allgemein", "id": "B" }
+    ],
+    "answer": "A",
+    "explanation": "Die richtige Antwort ist ‚im Allgemeinen‘. Der Ausdruck ‚im Allgemeinen‘ ist korrekt, da ‚Allgemeinen‘ ein substantiviertes Adjektiv im Dativ ist. ‚Im Allgemein‘ ist falsch, da ‚Allgemein‘ nicht als substantiviertes Adjektiv korrekt dekliniert wurde."
+  }
+
+  {
+    "id": "Q51",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Wir haben ______ Tage in der Stadt verbracht und ______ Stunden im Museum verbracht.“",
+    "options": [
+      { "text": "ein und ein halber, zweieinhalb", "id": "A" },
+      { "text": "eineinhalb, zweieinhalb", "id": "B" },
+      { "text": "ein und eine halbe, zwei und eine halbe", "id": "C" },
+      { "text": "eineinhalb, zwei und eine halbe", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚eineinhalb, zweieinhalb.‘ ‚Eineinhalb‘ ist die korrekte Form für ‚one and a half‘ und wird mit dem Plural ‚Tage‘ kombiniert. ‚Zweieinhalb‘ ist korrekt für ‚two and a half‘ und wird mit dem Plural ‚Stunden‘ kombiniert. ‚Ein und eine halbe‘ und ähnliche Formen sind im Deutschen grammatikalisch oder stilistisch unüblich."
+  }
+
+
+
+
+  {
+    "questions": [
+      {
+        "id": "Q52",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Er nimmt ______ Konferenz ______.“",
+        "options": [
+          { "text": "an einer, teil", "id": "A" },
+          { "text": "bei einer, teil", "id": "B" },
+          { "text": "an einer, teilgenommen", "id": "C" },
+          { "text": "bei einer, teilgenommen", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚an einer, teil.‘ Das Verb ‚teilnehmen‘ wird mit der Präposition ‚an‘ verwendet, gefolgt von einem Dativobjekt (‚an einer Konferenz‘). ‚Bei‘ ist falsch, da es mit anderen Verben wie ‚helfen‘ verwendet wird."
+      },
+      {
+        "id": "Q53",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Wir helfen ______ Organisation des Events ______.“",
+        "options": [
+          { "text": "bei der, geholfen", "id": "A" },
+          { "text": "bei der, haben", "id": "B" },
+          { "text": "an der, geholfen", "id": "C" },
+          { "text": "an der, haben", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚bei der, geholfen.‘ Das Verb ‚helfen‘ wird mit der Präposition ‚bei‘ verwendet, gefolgt von einem Dativobjekt (‚bei der Organisation‘). ‚An‘ ist falsch, da es nicht mit ‚helfen‘ kombiniert wird."
+      },
+      {
+        "id": "Q54",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Er leidet ______ seltenen Krankheit ______ Jahren.“",
+        "options": [
+          { "text": "an einer, seit", "id": "A" },
+          { "text": "bei einer, vor", "id": "B" },
+          { "text": "an einer, vor", "id": "C" },
+          { "text": "bei einer, seit", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚an einer, seit.‘ Das Verb ‚leiden‘ wird mit der Präposition ‚an‘ verwendet, gefolgt von einem Dativobjekt (‚an einer Krankheit‘). ‚Seit‘ beschreibt den Zeitrahmen korrekt, während ‚vor‘ unpassend ist."
+      },
+      {
+        "id": "Q55",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Sie konzentriert sich ______ Prüfung und arbeitet hart ______ ihrem Ziel.“",
+        "options": [
+          { "text": "auf ihre, an", "id": "A" },
+          { "text": "auf ihre, für", "id": "B" },
+          { "text": "an ihre, an", "id": "C" },
+          { "text": "bei ihrer, für", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚auf ihre, an.‘ Das Verb ‚sich konzentrieren‘ wird mit der Präposition ‚auf‘ verwendet, gefolgt von einem Akkusativobjekt (‚auf ihre Prüfung‘). ‚Arbeiten‘ wird oft mit ‚an‘ kombiniert, wenn es sich auf ein Ziel oder Projekt bezieht."
+      },
+      {
+        "id": "Q56",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Er träumt oft ______ Zukunft, aber er arbeitet noch ______ neuen Projekt.“",
+        "options": [
+          { "text": "von seiner, an einem", "id": "A" },
+          { "text": "über seine, bei einem", "id": "B" },
+          { "text": "von seiner, bei einem", "id": "C" },
+          { "text": "über seine, an einem", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚von seiner, an einem.‘ Das Verb ‚träumen‘ wird mit der Präposition ‚von‘ verwendet, gefolgt von einem Dativobjekt (‚von seiner Zukunft‘). ‚Arbeiten‘ kombiniert sich mit ‚an‘, wenn es sich auf ein Projekt bezieht (‚an einem Projekt‘)."
+      }
+    ]
+  }
+  
+
+  {
+    "questions": [
+      {
+        "id": "Q57",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Wir diskutieren ______ neuen Regeln und freuen uns ______ Fortschritte.“",
+        "options": [
+          { "text": "über die, auf die", "id": "A" },
+          { "text": "an den, über die", "id": "B" },
+          { "text": "über die, an den", "id": "C" },
+          { "text": "bei den, auf die", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚über die, auf die.‘ Das Verb ‚diskutieren‘ wird mit ‚über‘ im Akkusativ verwendet (‚über die Regeln‘). Das Verb ‚sich freuen‘ kombiniert sich mit ‚auf‘, wenn es sich auf Zukünftiges bezieht (‚auf die Fortschritte‘)."
+      },
+      {
+        "id": "Q58",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Er wartet schon lange ______ Entscheidung und zweifelt ______ ihrer Richtigkeit.“",
+        "options": [
+          { "text": "auf die, an", "id": "A" },
+          { "text": "bei der, auf", "id": "B" },
+          { "text": "auf die, auf", "id": "C" },
+          { "text": "an der, bei", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚auf die, an.‘ Das Verb ‚warten‘ wird mit ‚auf‘ im Akkusativ verwendet (‚auf die Entscheidung‘). ‚Zweifeln‘ kombiniert sich mit ‚an‘ im Dativ (‚an ihrer Richtigkeit‘)."
+      },
+      {
+        "id": "Q59",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Wir kümmern uns ______ Dokumentation und sorgen ______ deren Richtigkeit.“",
+        "options": [
+          { "text": "um die, für die", "id": "A" },
+          { "text": "an der, um die", "id": "B" },
+          { "text": "um die, auf die", "id": "C" },
+          { "text": "bei der, für die", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚um die, für die.‘ Das Verb ‚sich kümmern‘ wird mit ‚um‘ im Akkusativ verwendet (‚um die Dokumentation‘). ‚Sorgen‘ kombiniert sich mit ‚für‘, wenn Verantwortung ausgedrückt wird (‚für die Richtigkeit‘)."
+      },
+      {
+        "id": "Q60",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Sie bedanken sich ______ Unterstützung und entschuldigen sich ______ Fehler.“",
+        "options": [
+          { "text": "für die, für die", "id": "A" },
+          { "text": "bei der, über die", "id": "B" },
+          { "text": "für die, bei den", "id": "C" },
+          { "text": "bei der, für die", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚für die, für die.‘ Das Verb ‚sich bedanken‘ wird mit ‚für‘ im Akkusativ verwendet (‚für die Unterstützung‘). Ebenso wird ‚sich entschuldigen‘ mit ‚für‘ im Akkusativ verwendet (‚für die Fehler‘)."
+      },
+      {
+        "id": "Q61",
+        "question": "Welche Wörter passen am besten in die Lücken?\n\n„Er interessiert sich ______ Geschichte und begeistert sich ______ antike Kunst.“",
+        "options": [
+          { "text": "für die, für die", "id": "A" },
+          { "text": "über der, für die", "id": "B" },
+          { "text": "an der, für die", "id": "C" },
+          { "text": "für die, über die", "id": "D" }
+        ],
+        "answer": "A",
+        "explanation": "Die richtige Antwort ist ‚für die, für die.‘ Sowohl ‚sich interessieren‘ als auch ‚sich begeistern‘ werden mit ‚für‘ im Akkusativ verwendet (‚für die Geschichte‘ und ‚für die antike Kunst‘)."
+      }
+    ]
+  }
+
+
+  {
+    "id": "Q62",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Je wärmer das Wetter ist, desto ______ Leute besuchen das Freibad.“",
+    "options": [
+      { "text": "mehre", "id": "A" },
+      { "text": "mehrere", "id": "B" },
+      { "text": "mehr", "id": "C" },
+      { "text": "am meisten", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚mehr.‘ Im Satz ‚Je ... desto ...‘ wird ‚mehr‘ als Komparativ verwendet, um eine steigende Menge oder Intensität auszudrücken. ‚Mehre‘ ist grammatikalisch falsch. ‚Mehrere‘ bezieht sich auf eine unbestimmte Anzahl, passt jedoch nicht in die Konstruktion. ‚Am meisten‘ ist der Superlativ und würde nicht in die ‚Je ... desto ...‘-Struktur passen, die einen Vergleich beschreibt."
+  }
+  
+  
+  {
+    "id": "Q64",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Die Berliner Mauer fiel ______ 1989.“",
+    "options": [
+      { "text": "im Jahr", "id": "A" },
+      { "text": "im", "id": "B" },
+      { "text": "in", "id": "C" },
+      { "text": "am", "id": "D" }
+    ],
+    "answer": "A",
+    "explanation": "Die richtige Antwort ist ‚im Jahr.‘ Der Ausdruck ‚im Jahr 1989‘ ist korrekt, um ein bestimmtes Jahr anzugeben. ‚Im‘ alleine ist unvollständig, da ein Substantiv wie ‚Jahr‘ fehlt. ‚In‘ ist nicht korrekt für Jahresangaben, und ‚am‘ wird für spezifische Tage oder Daten verwendet, nicht für Jahre."
+  }
+
+  {
+    "id": "Q65",
+    "question": "Welches Wort passt am besten in die Lücke?\n\n„Habt ihr die Picasso-Ausstellung im Kunstmuseum schon ______? -Wir möchten sie nächste Woche sehen.“",
+    "options": [
+      { "text": "gebesucht", "id": "A" },
+      { "text": "besucht", "id": "B" },
+      { "text": "besuchen", "id": "C" },
+      { "text": "am besuchen", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚besucht.‘ Das Verb ‚besuchen‘ bildet das Partizip II im Perfekt mit ‚haben‘ und lautet ‚besucht.‘ ‚GEBESUCHT‘ ist eine falsche Form, da das Präfix ‚ge-‘ bei Verben wie ‚besuchen‘ nicht verwendet wird. ‚Besuchen‘ ist der Infinitiv und passt nicht in die Perfektkonstruktion. ‚Am besuchen‘ ist grammatikalisch unpassend."
+  }
+  
+
+  {
+    "id": "Q67",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Für den Kuchen brauchen wir Mehl. Haben wir ______? -Mehl? Ach du lieber Himmel, wir haben ______!“",
+    "options": [
+      { "text": "etwas - keins", "id": "A" },
+      { "text": "keinen - viel", "id": "B" },
+      { "text": "welches - keinen", "id": "C" },
+      { "text": "etwas - nichts", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚welches - keinen.‘ ‚Welches‘ wird als unbestimmtes Pronomen verwendet, um zu fragen, ob etwas vorhanden ist (‚Haben wir welches?‘). ‚Keinen‘ ist korrekt, um das Fehlen zu betonen (‚Wir haben keinen!‘). ‚Etwas - keins‘ ist falsch, da ‚etwas‘ nicht präzise genug ist. ‚Keinen - viel‘ passt grammatikalisch nicht. ‚Etwas - nichts‘ ist nicht sinnvoll im Kontext, da ‚nichts‘ den Mangel absolut ausdrückt und hier eine Antwort erwartet wird."
+  }
+
+  {
+    "id": "Q68",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Kommst du von der Arbeit ______ Fuß nach Hause? -Nein, ich fahre ______ Auto.“",
+    "options": [
+      { "text": "bei - auf", "id": "A" },
+      { "text": "mit - im", "id": "B" },
+      { "text": "zu - mit dem", "id": "C" },
+      { "text": "zu - im", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚zu - mit dem.‘ Der Ausdruck ‚zu Fuß‘ bedeutet ‚on foot‘ und wird feststehend mit ‚zu‘ verwendet. ‚Mit dem Auto‘ ist korrekt, um die Nutzung eines Fahrzeugs auszudrücken. ‚Bei‘ ist falsch, da es nicht für Fortbewegung verwendet wird. ‚Im Auto‘ beschreibt den Ort, passt aber hier nicht in den Kontext des Verkehrsmittels."
+  }
+
+  {
+    "id": "Q72",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Habt ihr euch bei ______ Lehrer für die zusätzliche Hilfe bedankt?“",
+    "options": [
+      { "text": "eure", "id": "A" },
+      { "text": "eurem", "id": "B" },
+      { "text": "euer", "id": "C" },
+      { "text": "euren", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚eurem.‘ Das Verb ‚sich bedanken‘ mit der Präposition ‚bei‘ erfordert den Dativ, und ‚eurem‘ ist die korrekte Form des Possessivpronomens für ‚Lehrer‘ im Dativ (maskulin). ‚Eure‘ ist die feminine oder Pluralform und daher falsch. ‚Euer‘ ist die Nominativform, die hier nicht passt. ‚Euren‘ ist die Akkusativform und ebenfalls unpassend."
+  }
+
+  {
+    "id": "Q73",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Anna ______ heute früh aufgewacht, ______ danach ein Buch gelesen und ______ am Nachmittag im Park spazieren gegangen.“",
+    "options": [
+      { "text": "hat - hat - ist", "id": "A" },
+      { "text": "hat - ist - hat", "id": "B" },
+      { "text": "ist - hat - ist", "id": "C" },
+      { "text": "ist - ist - hat", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚ist - hat - ist.‘ Das Verb ‚aufwachen‘ bildet das Perfekt mit ‚sein,‘ da es eine Zustandsänderung ausdrückt (‚ist aufgewacht‘). ‚Ein Buch lesen‘ verwendet das Hilfsverb ‚haben‘ (‚hat gelesen‘). Das Verb ‚spazieren gehen‘ erfordert ‚sein,‘ da es eine Bewegung ausdrückt (‚ist spazieren gegangen‘). Die anderen Kombinationen sind grammatikalisch falsch."
+  }
+
+  {
+    "id": "Q74",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Hast du deinem Freund den Schlüssel gegeben? -Ja, gestern habe ______ gegeben.“",
+    "options": [
+      { "text": "ich ihm ihn", "id": "A" },
+      { "text": "ich ihn ihm", "id": "B" },
+      { "text": "ihm ich ihn", "id": "C" },
+      { "text": "ihn ihm ich", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚ich ihn ihm.‘ In der deutschen Satzstruktur kommt das Pronomen für das Akkusativobjekt (‚ihn‘) vor dem Pronomen für das Dativobjekt (‚ihm‘). ‚Ich‘ steht korrekt am Anfang der Aussage. Die anderen Kombinationen widersprechen der üblichen Reihenfolge der Pronomen in der deutschen Grammatik."
+  }
+
+  {
+    "id": "Q75",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Ich trinke gern Kaffee. Und du? -Nein, ich trinke ______ Tee.“",
+    "options": [
+      { "text": "lieber", "id": "A" },
+      { "text": "besser", "id": "B" },
+      { "text": "einfacher", "id": "C" },
+      { "text": "mehr", "id": "D" }
+    ],
+    "answer": "A",
+    "explanation": "Die richtige Antwort ist ‚lieber.‘ ‚Lieber‘ ist der Komparativ von ‚gern‘ und wird verwendet, um eine Präferenz auszudrücken (‚Ich trinke lieber Tee‘ = ‚I prefer drinking tea‘). ‚Besser‘ beschreibt Qualität, nicht Vorlieben. ‚Einfacher‘ beschreibt Schwierigkeit, nicht Präferenz. ‚Mehr‘ beschreibt Menge und passt hier nicht in den Kontext."
+  }
+
+  {
+    "id": "Q76",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Ihr seid alt genug, um das alleine zu machen; eure Lehrer ______ ihr nicht um Erlaubnis zu bitten.“",
+    "options": [
+      { "text": "sollt", "id": "A" },
+      { "text": "braucht", "id": "B" },
+      { "text": "müsst", "id": "C" },
+      { "text": "dürft", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚braucht.‘ Der Satz drückt aus, dass es nicht notwendig ist, die Lehrer zu fragen. ‚Braucht‘ passt hier, da es die Notwendigkeit verneint (‚ihr braucht nicht...‘). ‚Sollt‘ würde eine Empfehlung ausdrücken, passt aber nicht zur Aussage. ‚Müsst‘ beschreibt eine Pflicht, was hier nicht zutrifft. ‚Dürft‘ beschreibt eine Erlaubnis, ist aber nicht im negativen Kontext gemeint."
+  }
+  
+  {
+    "id": "Q80",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Die Entscheidung liegt bei dir; deine Freunde ______ du nicht um ihre Meinung fragen.“",
+    "options": [
+      { "text": "sollst", "id": "A" },
+      { "text": "brauchst", "id": "B" },
+      { "text": "musst", "id": "C" },
+      { "text": "darfst", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚brauchst.‘ Der Satz drückt aus, dass es nicht notwendig ist, die Freunde um ihre Meinung zu fragen. ‚Brauchst‘ passt hier, da es die fehlende Notwendigkeit beschreibt (‚du brauchst nicht...‘). ‚Sollst‘ würde eine Empfehlung ausdrücken, was hier nicht gemeint ist. ‚Musst‘ beschreibt eine Pflicht, die hier verneint wird. ‚Darfst‘ bezieht sich auf Erlaubnis und passt nicht zum Kontext der Notwendigkeit."
+  }
+
+  {
+    "id": "Q81",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Ist Max genauso _____ sportlich _____ sein Bruder? -Nein, er ist sogar sportlicher _____ sein Bruder!“",
+    "options": [
+      { "text": "so - wie - als", "id": "A" },
+      { "text": "so - als - wie", "id": "B" },
+      { "text": "als - wie - als", "id": "C" },
+      { "text": "wie - als - wie", "id": "D" }
+    ],
+    "answer": "A",
+    "explanation": "Die richtige Antwort ist ‚so - wie - als.‘ ‚So - wie‘ wird verwendet, um Gleichheit auszudrücken (‚genauso sportlich wie‘). ‚Als‘ wird verwendet, um einen Vergleich mit einer Steigerung auszudrücken (‚sportlicher als‘). Die anderen Kombinationen sind grammatikalisch falsch oder passen nicht zur Bedeutung des Satzes."
+  }
+
+  {
+    "id": "Q84",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Schüler, ______ bitte die Fenster. Lisa, ______ die Tafel sauber!“",
+    "options": [
+      { "text": "macht auf - wisch", "id": "A" },
+      { "text": "machen Sie auf - wische", "id": "B" },
+      { "text": "macht auf - wische", "id": "C" },
+      { "text": "macht auf - wisch", "id": "D" }
+    ],
+    "answer": "D",
+    "explanation": "Die richtige Antwort ist ‚macht auf - wisch.‘ ‚Macht auf‘ ist der Imperativ in der 2. Person Plural für ‚Schüler‘ (‚Macht bitte die Fenster auf‘). ‚Wisch‘ ist der Imperativ in der 2. Person Singular für ‚Lisa‘ (‚Wisch die Tafel sauber‘). ‚Macht auf - wische‘ ist falsch, da ‚wische‘ nicht die Imperativform ist, die zu Lisa passt. ‚Machen Sie auf - wische‘ ist formal und passt nicht zum Kontext. ‚Macht auf - wische‘ ist ebenfalls falsch, da der Singular-Imperativ nicht korrekt ist."
+  }
+  
+  {
+    "id": "Q85",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Keine Sorge, die Aufgabe ______ leicht und schnell ______.“",
+    "options": [
+      { "text": "kann - erledigt werden", "id": "A" },
+      { "text": "lässt sich - erledigen", "id": "B" },
+      { "text": "ist - erledigen lassen", "id": "C" },
+      { "text": "muss - erledigt werden", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚lässt sich - erledigen.‘ ‚Lässt sich‘ wird verwendet, um die Möglichkeit oder Machbarkeit auszudrücken (‚Die Aufgabe lässt sich leicht erledigen‘). ‚Kann - erledigt werden‘ ist ebenfalls korrekt, aber ‚lässt sich - erledigen‘ ist stilistisch passender für den Kontext. ‚Ist - erledigen lassen‘ ist grammatikalisch falsch, da ‚ist‘ nicht in Verbindung mit ‚erledigen lassen‘ verwendet wird. ‚Muss - erledigt werden‘ drückt Notwendigkeit aus, was hier nicht gemeint ist."
+  }
+  
+  {
+    "id": "Q86",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Warum hast du den Kuchen gebacken? -Für Anna. Sie liebt Schokolade und wird sich bestimmt sehr ______ freuen.“",
+    "options": [
+      { "text": "dafür", "id": "A" },
+      { "text": "darauf", "id": "B" },
+      { "text": "darüber", "id": "C" },
+      { "text": "damit", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚darüber.‘ ‚Sich freuen über‘ wird verwendet, wenn die Freude sich auf etwas Konkretes oder Gegenwärtiges bezieht (‚Sie wird sich sehr darüber freuen, dass du den Kuchen gebacken hast‘). ‚Dafür‘ ist falsch, da es sich auf eine Absicht oder einen Zweck bezieht. ‚Darauf‘ wird für zukünftige Ereignisse verwendet, was hier nicht passt. ‚Damit‘ beschreibt ein Mittel oder Werkzeug und ist unpassend."
+  }
+  
+  {
+    "id": "Q88",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Haben Sie ______ Mann gesehen? -Nein, ______ Mann kenne ich nicht, ich sehe ihn zum ersten Mal.“",
+    "options": [
+      { "text": "diesen - dieser", "id": "A" },
+      { "text": "dieser - dieser", "id": "B" },
+      { "text": "diesem - diesen", "id": "C" },
+      { "text": "diesen - diesen", "id": "D" }
+    ],
+    "answer": "A",
+    "explanation": "Die richtige Antwort ist ‚diesen - dieser.‘ ‚Diesen‘ wird im Akkusativ verwendet, um das direkte Objekt in der Frage zu markieren (‚Haben Sie diesen Mann gesehen?‘). ‚Dieser‘ ist der Nominativ für das Subjekt in der Antwort (‚Dieser Mann kenne ich nicht‘). ‚Diesem‘ ist der Dativ und passt hier nicht. Die anderen Kombinationen sind grammatikalisch falsch."
+  }
+
+  {
+    "id": "Q89",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Sprichst du von Peter, ______ der große Garten gehört? -Nein, ich meine Paul, ______ Bruder Lehrer ist.“",
+    "options": [
+      { "text": "den - sein", "id": "A" },
+      { "text": "wem - des", "id": "B" },
+      { "text": "dem - dessen", "id": "C" },
+      { "text": "den - dessen", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚dem - dessen.‘ ‚Dem‘ ist der Dativ, der mit dem Verb ‚gehören‘ verwendet wird (‚Peter, dem der große Garten gehört‘). ‚Dessen‘ ist das Genitiv-Relativpronomen für Maskulina und Neutra (‚Paul, dessen Bruder Lehrer ist‘). ‚Den‘ ist der Akkusativ und passt nicht mit ‚gehört.‘ ‚Wem‘ ist eine Frageform und grammatikalisch falsch im Relativsatz. ‚Des‘ ist falsch, da hier ‚dessen‘ als Pronomen benötigt wird."
+  }
+
+  {
+    "id": "Q90",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Ein Junge rannte plötzlich los und lief ______ aus dem Raum.“",
+    "options": [
+      { "text": "weinender", "id": "A" },
+      { "text": "weinende", "id": "B" },
+      { "text": "weinend", "id": "C" },
+      { "text": "weinendem", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚weinend.‘ ‚Weinend‘ ist das Partizip Präsens und beschreibt die Handlung des Jungen im Verlauf (‚lief weinend aus dem Raum‘). ‚Weinender‘ und ‚weinende‘ sind Adjektivformen, die in diesem Kontext nicht passen. ‚Weinendem‘ ist der Dativ und ebenfalls unpassend."
+  }
+
+  {
+    "id": "Q91",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Paul träumte schon als kleiner Junge davon, Gitarre ______.“",
+    "options": [
+      { "text": "zu spielen lernen", "id": "A" },
+      { "text": "spielen lernen", "id": "B" },
+      { "text": "spielen zu lernen", "id": "C" },
+      { "text": "lernen zu spielen", "id": "D" }
+    ],
+    "answer": "B",
+    "explanation": "Die richtige Antwort ist ‚spielen lernen.‘ Im Deutschen folgt ‚lernen‘ direkt auf den Infinitiv, ohne ‚zu‘ (‚Gitarre spielen lernen‘). ‚Zu spielen lernen‘ ist falsch, da ‚zu‘ hier nicht notwendig ist. ‚Spielen zu lernen‘ und ‚lernen zu spielen‘ sind grammatikalisch korrekt, haben aber eine leicht andere Betonung und passen nicht stilistisch zum Satz."
+  }
+
+  {
+    "id": "Q92",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Viele machen regelmäßig Sport, ______ sie fit bleiben, ______ sie oft nach der Arbeit müde sind.“",
+    "options": [
+      { "text": "um - wenn auch", "id": "A" },
+      { "text": "sodass - als ob", "id": "B" },
+      { "text": "damit - obwohl", "id": "C" },
+      { "text": "weil - während", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚damit - obwohl.‘ ‚Damit‘ drückt einen Zweck aus (‚damit sie fit bleiben‘). ‚Obwohl‘ leitet einen Gegensatz ein (‚obwohl sie müde sind‘). ‚Um - wenn auch‘ passt nicht, da ‚wenn auch‘ keine logische Verbindung schafft. ‚Sodass - als ob‘ ist ebenfalls falsch, da diese Kombination keinen Sinn ergibt. ‚Weil - während‘ passt grammatikalisch, jedoch nicht zur Bedeutung des Satzes."
+  }
+
+  {
+    "id": "Q93",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„______ Nachmittag haben wir ______ der Kälte einen Ausflug ______ den Park gemacht.“",
+    "options": [
+      { "text": "An - wegen - bis", "id": "A" },
+      { "text": "Im - statt - in", "id": "B" },
+      { "text": "Am - trotz - durch", "id": "C" },
+      { "text": "Während - wegen - durch", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚Am - trotz - durch.‘ ‚Am Nachmittag‘ ist die korrekte Präposition für eine Zeitangabe. ‚Trotz der Kälte‘ drückt aus, dass die Kälte kein Hindernis für den Ausflug war. ‚Durch den Park‘ beschreibt die Richtung des Ausflugs. ‚An - wegen - bis‘ ist falsch, da ‚bis‘ nicht passt. ‚Im - statt - in‘ ist falsch, da ‚statt der Kälte‘ keinen Sinn ergibt. ‚Während - wegen - durch‘ ist unlogisch, da ‚während‘ hier keinen Bezug zu den anderen Satzteilen hat."
+  }
+
+  
+  {
+    "id": "Q94",
+    "question": "Welche Wörter passen am besten in die Lücken?\n\n„Viele gehen regelmäßig ins Fitnessstudio, ______ sie ihre Gesundheit verbessern, ______ sie dafür auf andere Aktivitäten verzichten müssen.“",
+    "options": [
+      { "text": "um - wenn auch", "id": "A" },
+      { "text": "sodass - als ob", "id": "B" },
+      { "text": "damit - obwohl", "id": "C" },
+      { "text": "weil - während", "id": "D" }
+    ],
+    "answer": "C",
+    "explanation": "Die richtige Antwort ist ‚damit - obwohl.‘ ‚Damit‘ wird verwendet, um einen Zweck oder ein Ziel zu beschreiben (‚damit sie ihre Gesundheit verbessern‘). ‚Obwohl‘ drückt einen Gegensatz aus (‚obwohl sie dafür auf andere Aktivitäten verzichten müssen‘). ‚Um - wenn auch‘ ist unpassend, da ‚wenn auch‘
+  }  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+Weißt du, wann er aus dem Urlaub zurückkommt?
+
+
+  

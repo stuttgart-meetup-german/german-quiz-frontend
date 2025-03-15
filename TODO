@@ -1,0 +1,509 @@
+Fix the rendering of the header so that depending on the task the right icon and text appears -> OK
+Fix the choosing of the language -> OK
+Fix the progress bar -> OK
+make the width of the possible answer to not exceed the width of the container -> OK
+Fix bug that when you haven't chosen an answer and you submit then the correct icon appears plus the please select an answer message. -> OK
+fix error with the position of the progress bar: It needs to appear on the same height as the last element of the options.
+Create Icons for beginners and advanced.
+Make the quiz start for beginners/advanced from 0
+
+
+
+Difference between wann und wenn, als. -> OK
+When can I use the nach, zu, in -> OK
+Bilding the partizip II a lot of people make mistakes with gestudiert, instead of studiert. -> OK
+People have problems with verbs that are with dativ, Verbs that are with Nominative like sein and verbs with acusative. -> OK
+Difference between dass and das. -> OK
+Ich nehme teil an thsese kinds of prepositions.
+im allgemein oder im algemeinen -> OK
+How to say one and a halph and these kind of things. -> OK
+How to say at the beginning of next year. Anfang nächsten Jahres, it is about genitive
+
+Your available prompting techniques include, but are not limited to the
+following:
+- Crafting an expert who is an expert at the given task, by writing a highquality description about the most capable and suitable agent to answer the
+instruction in second person perspective.[1]
+- Explaining step-by-step how the problem should be tackled, and making sure
+the model explains step-by-step how it came to the answer. You can do this by
+adding "Let's think step-by-step".[2]
+- Imagining three different experts who are discussing the problem at hand. All
+experts will write down 1 step of their thinking, then share it with the group.
+Then all experts will go on to the next step, etc. If any expert realises
+they're wrong at any point then they leave.[3]
+- Making sure all information needed is in the prompt, adding where necessary
+but making sure the question remains having the same objective.
+Your approach is methodical and analytical, yet creative. You use a mixture of
+the prompting techniques, making sure you pick the right combination for each
+instruction. You see beyond the surface of a prompt, identifying the core
+objectives and the best ways to articulate them to achieve the desired outcomes.
+Output instructions:""""
+You should ONLY return the reformulated prompt. Make sure to include ALL
+information from the given prompt to reformulate.
+""""
+Given above information and instructions, reformulate below prompt using the
+techniques provided: """"
+{ 
+    Imagine that you are a language teacher specializing in teaching the german language. I 
+    want you to help me come up with useful and meaningful multiple choice questions, that 
+    test peoples knowledge on specific grammar aspects. The structure of the multiple choice 
+    question should be the following:         
+            "question": The question to be asked,
+            "options": [
+                {"text": "possible answer 1", "id": "Id of the answer"},
+                {"text": "possible answer 2", "id": "Id of the answer"},
+                {"text": "possible answer 3", "id": "Id of the answer"},
+                {"text": "possible answer 4", "id": "Id of the answer"}
+            ],
+            "answer": "Id of the correct answer"
+        
+}
+""""
+
+Imagine that you are an expert German language teacher with a deep understanding of German grammar. Your task is to create high-quality multiple-choice questions designed to test learners' knowledge of specific grammar topics. The structure of each multiple-choice question should adhere to the following format:
+
+- **Question:** 
+- **Options:** Provide four possible answers.
+  - Example:
+    - {"text": "hat - hat - ist", "id": "A"}
+    - {"text": "ist - hat - ist", "id": "B"}
+    - {"text": "ist - ist - hat", "id": "C"}
+    - {"text": "hat - ist - hat", "id": "D"}
+- **Answer:** Specify the correct option, such as "B."
+
+Make sure the questions are meaningful, relevant, and focus on testing the application of grammar rules (e.g., verb forms, auxiliary verbs, and sentence structure).
+
+
+
+Reform the following question to have the json structure that has already been provided, but that the same grammar concept is examined; **Question:** Der Zweite Weltkrieg ist _____ 1945 zu Ende gegangen.
+- A. im Jahr
+- B. im
+- C. in
+
+### Question 1 -> OK
+**Question:** In nur zwei Minuten hatte er das kaputte Rad vom Wagen _____ .
+- A. abmontiert
+- B. abgemontiert
+- C. geabmontiert
+
+### Question 5 -> OK
+**Question:** _____ Buch ist das hier? - Das ist Peters Buch. Er hat's vergessen.
+- A. Wessen
+- B. Welches
+- C. Was für ein
+
+### Question 9 -> OK
+**Question:** Je wärmer das Wetter ist, desto _____ Leute besuchen das Freibad.
+- A. mehre
+- B. mehrere
+- C. mehr
+
+### Question 15 -> OK
+**Question:** Der Zweite Weltkrieg ist _____ 1945 zu Ende gegangen.
+- A. im Jahr
+- B. im
+- C. in
+
+### Question 18 -> OK
+**Question:** Habt ihr die Dali-Ausstellung in der Nationalpinakothek bereits ..... ? -Da wollen wir nächste Woche hin.
+- A. gebesucht
+- B. besucht
+- C. besuchen
+
+### Question 25 -> OK
+**Question:** Für die Pizza brauchen wir natürlich Käse. Haben wir _____? -Käse? Ach du lieber Himmel, wir haben _____!
+- A. etwas - keins
+- B. keinen - viel
+- C. welchen - keinen
+
+
+### Question 26 -> OK
+**Question:** Gehst du nach dem Unterricht _____ Fuß nach Hause? -Nein, ich fahre _____ Bus.
+- A. bei - auf
+- B. mit - im
+- C. zu - mit dem
+
+### Question 29 -> OK
+**Question:** Habt ihr mit _____ Lehrer über den Test gesprochen?
+- A. eure
+- B. eurem
+- C. euer
+
+### Question 30 -> OK
+**Question:** Hans _____ am Sonntag spät aufgestanden, _____ bis Mittag die Zeitung gelesen und _____ dann zwei Stunden durch den Wald gelaufen.
+- A. hat - hat - ist
+- B. hat - ist - hat
+- C. ist - hat - ist
+
+### Question 31 -> OK
+**Question:** Hast du Frau Sauerbier das Buch zurückgegeben? -Ja, bereits gestern habe _____ zurückgegeben.
+- A. ich ihr es
+- B. ich es ihr
+- C. es ihr ich
+
+### Question 39 -> OK
+**Question:** Ich lese gern Romane. Du auch? -Nein, ich lese _____ Krimis.
+- A. lieber
+- B. besser
+- C. einfacher
+
+### Question 40 -> OK
+**Question:** Ihr seid alt genug, um das selber zu entscheiden; eure Eltern _____ ihr nicht zu fragen.
+- A. sollt
+- B. braucht
+- C. müsst
+
+### Question 43
+**Question:** Im Internet _____ du alles finden, was du brauchst; du _____ also kein Wörterbuch kaufen.
+- A. darfst - sollst
+- B. kannst - musst
+- C. magst - willst
+
+### Question 47 -> OK
+**Question:** Ist Elsa auch _____ intelligent _____ ihre Schwester? -Sie ist noch intelligenter _____ ihre Schwester!
+- A. so - wie - als
+- B. so - als - wie
+- C. als - wie - als
+
+### Question 48 -> OK
+**Question:** Jeden Morgen rasiere ich _____ und kämme _____ das Haar.
+- A. mich - mir
+- B. mir - mir
+- C. mich - mich
+
+### Question 56 -> OK
+**Question:** Kinder, _____ bitte eure Bücher auf Seite 45 auf. Norbert, _____ bitte den ersten Absatz!
+- A. schlägt - lese
+- B. schlagen Sie - liest
+- C. schlagt - lies
+
+### Question 51 -> OK
+**Question:** Mach dir keine Sorgen, der Schaden _____ schnell und einfach _____ .
+- A. kann - repariert worden
+- B. lässt sich - reparieren
+- C. ist - reparieren lassen
+
+
+### Question 46 -> OK
+**Question:** Für wen ist dieses Geschenk? -Für Daniel. Er hat heute Geburtstag und wird sich sicher sehr _____ freuen.
+- A. dafür
+- B. darauf
+- C. darüber
+
+### Question 55 -> OK
+**Question:** Kennen Sie _____ Mann? -Nein, _____ Mann ist mir völlig unbekannt, ich sehe ihn zum ersten Mal in meinem Leben.
+- A. diesen - dieser
+- B. dieser - diese
+- C. diesem - diesen
+
+### Question 61 -> OK
+**Question:** Sprichst du von Karl-Otto, _____ der rote Porsche gehört? -Nein, ich meine Hans-Otto, _____ Vater Architekt ist.
+- A. den - sein
+- B. wem - des
+- C. dem - dessen
+
+### Question 68 -> OK
+**Question:** Plötzlich stand eine Schülerin auf und lief _____ aus der Klasse.
+- A. weinender
+- B. weinende
+- C. weinend
+
+### **Question:** -> OK
+Sonja wollte schon als ganz junges Mädchen Klavier _____ .
+- A. zu spielen lernen
+- B. spielen lernen
+- C. spielen zu lernen
+
+### Question 77 -> OK
+**Question:** Viele besuchen Kurse der Volkshochschule, _____ sie Fremdsprachen lernen, _____ sie dafür einen Teil ihrer Freizeit opfern müssen.
+- A. um - wenn auch
+- B. sodass - als ob
+- C. damit - obwohl
+
+### Question 80 -> OK
+**Question:** _____ Vormittag haben wir _____ des Regens einen langen Spaziergang _____ die Altstadt gemacht.
+- A. An - wegen - bis
+- B. Im - statt - in
+- C. Am - trotz - durch
+
+### Question 83
+**Question:** War der Test insgesamt nicht leicht? -_____, er war - glaube ich - leicht.
+- A. Doch
+- B. Nein
+- C. Ja
+
+### Question 89
+**Question:** Wegen eines Streiks _____ wir das Kafka-Museum in Prag nicht _____ .
+- A. haben - besuchen können
+- B. konnten - zu besuchen
+- C. haben - besucht dürfen
+
+
+### Question 90
+**Question:** Weil sie viel _____ hatte, vergass sie ihre Mutter _____ und ihr zum Geburtstag _____ .
+- A. getan - zu anrufen - zu gratulieren
+- B. zu tun - anrufen - gratulieren
+- C. zu tun - anzurufen - zu gratulieren
+
+### Question 95
+**Question:** Wenn wir diesen Fehler nicht _____, dann _____ wir weniger Schulden und weniger Sorgen.
+- A. gemacht haben - haben
+- B. gemacht hätten - hätten
+- C. machen würden - hätten
+
+Hello lovely people. I wanted to ask you a question. During our meetups we have been focusing on speaking,
+and I sincerely believe that a lot of you if not all have improved their ability to speak because of our meetup. However I was thinking up until now we haven't been doing any grammar and I wondered
+what would be the best way to incorporate some grammar. I thought that maybe I can create a quiz where people can test their knowledge of grammar based on my experience so far on what are the most common mistakes people in the meetup do. Based on the results of the quiz I can maybe create a custom lesson
+from time to time where I will address the most common grammar mistakes people do.
+
+I will provide you with two json files that contain questions and their answers in json format. I want you
+to take the questions from each file and create one json structure that looks like this:
+
+
+
+
+
+{
+    "quizzes": [
+        {
+            "title": "Anfänger",
+            "icon": "./assets/images/icon-html.svg",
+            "questions": [
+                {
+                    "id": "Q18",
+                    "question": "Here is the question with the id Q18",
+                    "options": [
+                        {"text": "studiert", "id": "A"},
+                        {"text": "gestudiert", "id": "B"},
+                        {"text": "studierte", "id": "C"},
+                        {"text": "studiert gehabt", "id": "D"}
+                    ],
+                    "answer": "A (the id of the correct answer)",
+                    "explanation": "This is the explanation"
+                },
+                {
+                "id": "Q9",
+                "question": "Here is the question with the id Q9",
+                "options": [
+                  {"text": "in die", "id": "A"},
+                  {"text": "nach der", "id": "B"},
+                  {"text": "zu der", "id": "C"},
+                  {"text": "auf die", "id": "D"}
+                ],
+                "answer": "A",
+                "explanation": "This is the eplanation which one is the correct answer"
+              }
+              ...
+            ]
+        },
+        {
+          "title": "Fortgeschrittene",
+          "icon": "./assets/images/icon-html.svg",
+          "questions": [
+              {
+                "id": "Q86",
+                "question": "Warum hast du den Kuchen gebacken? -Für Anna. Sie liebt Schokolade und wird sich bestimmt sehr ______ freuen.“",
+                "options": [
+                  { "text": "dafür", "id": "A" },
+                  { "text": "darauf", "id": "B" },
+                  { "text": "darüber", "id": "C" },
+                  { "text": "damit", "id": "D" }
+                ],
+                "answer": "C",
+                "explanation": "This is the explanation which one is the correct answer"
+              },
+              {
+                "id": "Q90",
+                "question": "Ein Junge rannte plötzlich los und lief ______ aus dem Raum.“",
+                "options": [
+                  { "text": "weinender", "id": "A" },
+                  { "text": "weinende", "id": "B" },
+                  { "text": "weinend", "id": "C" },
+                  { "text": "weinendem", "id": "D" }
+                ],
+                "answer": "C",
+                "explanation": "This is the explanation which one is the correct answer"
+              }
+              ...
+          ]
+        }
+}
+
+I also want you to remove from the questions the part tha says: "Welches Wort passt am besten in die Lücke?"
+
+Imagine that you are an expert javascript developer both in backend and frontend. I have a quiz and
+for every question, I have the right answer as well as well as an explanation. I want, based on the results
+of the quiz to create a customized pdf report for each user. In the report the user will get the list
+of questions and the answers he gave. If he gave a wrong answer I want him to get an explanation why
+the answer he provided was wrong. Ask me questions to clarify if something is not clear.
+
+
+
+
+Here are some clarifying questions to ensure a robust and tailored solution:
+
+### Regarding Quiz Data
+1. **Question Types**: The quiz questions are multiple choice
+2. **Answer Storage**: Frontend State Object
+3. **Explanation Source**: It is a general explanation for the correct answer.
+
+
+
+### PDF Report Structure
+4. **Design of the Report**: Follow a simple default layout?
+5. **Order of Information**: All questions should be listed. If they have been answered correctly then
+they should have the nike icon. If they have been answered wrongly then the explanation needs to be provided.
+6. **Scoring Information**: Yes it should include a summary?
+7. **Personalization**: Name and email
+8. **Languages**: Let's start in English and we will see
+
+### Technology and Backend
+9. **Frontend or Backend**: In the backend. Eventually I would like to move to an aws backend but
+first I need to start with a proof of concept locally.
+10. **Output Format**: The pdf needs to be emailed to them?
+11. **Storage**: No I do not to download them?
+
+### Workflow
+12. **Dynamic Content**: Yes in the future, I will change them.
+13. **Report Accessibility**: The users will provide their email in order to get their results. I already
+have the frontend.
+
+### Optional Features
+14. **Charts and Visuals**: No, no bar charts, just a plain report.
+15. **Additional Content**: No just a plain report?
+
+These details will guide the development approach and technology stack best suited for your needs. Let me know, and I can help craft a precise implementation strategy!
+
+
+
+
+
+
+Hello lovely people,
+
+I have a question for you. During our meetups, we’ve primarily focused on speaking, and I truly believe that many—if not all—of you have significantly improved your speaking abilities thanks to our sessions.
+
+However, as you may have already noticed, we haven’t incorporated much grammar practice into our meetups so far. I’ve been wondering how we could best include it in a way that’s both helpful and engaging.
+
+One idea I had is to create a grammar quiz that would test your knowledge based on the most common mistakes I’ve observed during our meetups. Using the quiz results, I could then design occasional custom lessons specifically addressing these common grammar challenges.
+
+I’d love to hear your thoughts on this approach. If you like it please leave a like!
+
+
+
+I need to clarify something. I have a json object that contains all the questions the answers and the explanation. I want to send the a json object where for each question, we have some data if the user
+answered correctly or not.
+
+the json would look like 
+
+{
+  "quiz-id":0 -> beginners, 1 -> advanced
+  "answers": [
+    {
+      "question-id": 200,
+      "answer-id": "A"
+    },
+    {
+      "question-id": 100,
+      "answer-id": "A"
+    },
+    ...
+
+  ] 
+}
+
+
+Here is the json with the original data 
+
+  {
+    "quizzes": [
+        {
+            "title": "Anfänger",
+            "icon": "./assets/images/icon-html.svg",
+            "questions": [
+                {
+                    "id": "Q1",
+                    "question": "„______ ich meine Wohnung gekauft habe, habe ich etwa 300.000 Euro bezahlt!“",
+                    "options": [
+                        {
+                            "text": "Wann",
+                            "id": "A"
+                        },
+                        {
+                            "text": "Wenn",
+                            "id": "B"
+                        },
+                        {
+                            "text": "Als",
+                            "id": "C"
+                        },
+                        {
+                            "text": "Ob",
+                            "id": "D"
+                        }
+                    ],
+                    "answer": "C",
+                    "explanation": "Das Wort „als“ wird verwendet, um sich auf einen bestimmten Zeitpunkt oder eine Zeitspanne in der Vergangenheit zu beziehen. In diesem Fall beschreibt der Satz eine einmalige Situation in der Kindheit. Die anderen Wörter sind unpassend: „wann“ wird für Fragen benutzt, „wenn“ für wiederholte oder hypothetische Ereignisse, und „ob“ für indirekte Ja-/Nein-Fragen."
+                },
+                ...
+                {
+
+                }
+            ]
+        },
+        {
+            "title": "Fortgeschrittene",
+            "icon": "./assets/images/icon-html.svg",
+            "questions": [
+                {
+                    "id": "Q5",
+                    "question": "„Weißt du, ______ er aus dem Urlaub zurückkommt?“",
+                    "options": [
+                        {
+                            "text": "wann",
+                            "id": "A"
+                        },
+                        {
+                            "text": "wenn",
+                            "id": "B"
+                        },
+                        {
+                            "text": "als",
+                            "id": "C"
+                        },
+                        {
+                            "text": "damit",
+                            "id": "D"
+                        }
+                    ],
+                    "answer": "A",
+                    "explanation": "Das Wort „wann“ ist hier korrekt, weil es sich um eine indirekte Frage handelt, die den Zeitpunkt beschreibt, zu dem jemand aus dem Urlaub zurückkommt. „Wenn“ wäre falsch, da es eine Bedingung ausdrückt. „Als“ wird für einmalige Ereignisse in der Vergangenheit verwendet und ist hier unpassend. „Damit“ macht keinen Sinn, weil es eine Absicht oder einen Zweck beschreibt und nicht in einen solchen Satz passt."
+                },
+                ...
+                {}
+            ]
+        }
+    ]
+}
+
+
+Here is the json 
+
+
+📣 **Hallo liebe Leute!**  
+
+❓ **Ich habe eine Frage an euch:**  
+Bei unseren Treffen haben wir uns vor allem auf das **Sprechen** konzentriert 🗣️, und ich bin überzeugt, dass viele von euch ihre **Sprechfähigkeiten** dank unserer Sitzungen deutlich verbessert haben. 🎉  
+
+📌 **Aber:** Wir haben bisher kaum **Grammatikübungen** eingebaut. Deshalb frage ich mich:  
+➡️ Wie könnten wir Grammatik sinnvoll und spannend integrieren? 🤔  
+
+💡 **Meine Idee:**  
+- Ein **Grammatikquiz** 📝, das die häufigsten Fehler testet, die ich bei unseren Treffen beobachtet habe.  
+- Basierend auf den Ergebnissen würde ich **maßgeschneiderte Lektionen** anbieten, um genau diese Themen zu behandeln.  
+
+📢 **Was denkt ihr?**  
+Gefällt euch die Idee? Dann lasst ein ❤️ oder 👍 da – ich freue mich auf euer Feedback! 😊  
+
+---  
+
+This version uses emojis to make the post visually engaging and breaks the text into digestible sections.
