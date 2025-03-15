@@ -211,13 +211,16 @@ body {
 }
 
 .topic__icon{
-  display: inline-block;
+  display: inline-flex;
   width: 3.5rem;
   height: 3.5rem;
+  align-items: center;
+  justify-content: center;
   background-position: center;
   background-size:auto;
   background-repeat: no-repeat;
   margin: 0 2rem 0 0;
+  font-size: 2.5rem;
 }
 
 .quiz__topic--html > .topic__icon, .topic__icon--html{

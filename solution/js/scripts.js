@@ -133,14 +133,16 @@ const renderInitialPage = () => {
     </div>
     <ul class="quiz__topics">
       ${_quizData.map((quiz, i) => {
+        const icon = quiz.title.toLowerCase() === 'fortgeschrittene' ? 'school' : 'eco';
         return `
           <li class="quiz__topic quiz__topic--${quiz.title.toLowerCase()}" data-topic-id="${quiz.title}">
-            <span class="topic__icon"></span>
+            <span class="topic__icon material-icons">${icon}</span>
             <span class="topic__text">${quiz.title}</span>
           </li>
         `;
-      }).join('')}
-    </ul>`;
+    }).join('')}
+  </ul>`
+  
   const quizTopicsLi = quizMain.querySelectorAll('.quiz__topic');
   quizTopicsLi.forEach(quizTopic => {
     quizTopic.addEventListener("click", onQuizTopicClick);
