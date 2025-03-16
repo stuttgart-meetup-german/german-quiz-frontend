@@ -1,7 +1,7 @@
 {
     "quizzes": [
         {
-            "title": "Anfänger",
+            "title": "beginner",
             "icon": "./assets/images/icon-html.svg",
             "questions": [
                 {
@@ -1127,7 +1127,7 @@
             ]
         },
         {
-            "title": "Fortgeschrittene",
+            "title": "advanced",
             "icon": "./assets/images/icon-html.svg",
             "questions": [
                 {
