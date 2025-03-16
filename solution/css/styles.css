@@ -14,6 +14,7 @@
   --green: hsl(151, 70%, 50%);
   --green-light: hsla(151, 70%, 50%, 0.25);
   --blue-light: hsla(223, 100%, 96%);
+  --blue: hsla(223, 100%, 59%);
 
 
 /***** ### TYPOGRAPHY *****/
@@ -233,9 +234,19 @@ body {
   background-image: url('../img/icon-css.svg');
 }
 
+.quiz__topic--accessibility > .topic__icon, .topic__icon--beginner{
+  background-color: var(--green-light);
+  color: var(--green);
+}
+
 .quiz__topic--javascript > .topic__icon, .topic__icon--javascript{
   background-color: var(--blue-light);
   background-image: url('../img/icon-js.svg');
+}
+
+.quiz__topic--javascript > .topic__icon, .topic__icon--advanced{
+  background-color: var(--blue-light);
+  color: var(--blue);
 }
 
 .quiz__topic--accessibility > .topic__icon, .topic__icon--accessibility{
@@ -704,6 +715,22 @@ body {
 
   .quiz__results{
     width: auto;
+  }
+
+  .user-data{
+    flex-flow: column nowrap;
+  }
+
+  .btn--get-results{
+    position: unset;
+    width: 100%;
+    margin: 1em 0 0 0;
+  }
+
+  .error--email{
+    position: unset;
+    transform: unset;
+    margin: 1em 0 0 0;
   }
 }
 
