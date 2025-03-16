@@ -16,6 +16,10 @@ const QuizResults = {
   ]
 };
 
+/* CONSTANTS */
+const ADVANCED = "advanced";
+const BEGINNER = "beginner";
+
 let _quizData = null;
 let _chosenQuizId = ''; // Id of the chosen quiz;
 let _chosenQuizData = null; // Object containing the data for the chosen quiz
@@ -133,10 +137,13 @@ const renderInitialPage = () => {
     </div>
     <ul class="quiz__topics">
       ${_quizData.map((quiz, i) => {
-        const icon = quiz.title.toLowerCase() === 'fortgeschrittene' ? 'school' : 'eco';
+        console.log(`This is the chosen quiz id ${_chosenQuizId}`);
+        const isAdvanced = quiz.title.toLowerCase() === ADVANCED;
+        const icon = isAdvanced ? 'school' : 'eco';
+        const quizClass = isAdvanced ? ADVANCED : BEGINNER;
         return `
           <li class="quiz__topic quiz__topic--${quiz.title.toLowerCase()}" data-topic-id="${quiz.title}">
-            <span class="topic__icon material-icons">${icon}</span>
+            <span class="topic__icon material-icons topic__icon--${quizClass}">${icon}</span>
             <span class="topic__text">${quiz.title}</span>
           </li>
         `;
@@ -156,8 +163,10 @@ const renderInitialPage = () => {
  */
 const renderQuestionsPage = () => {
   const quizMeta = document.querySelector(".quiz__meta");
+  const isAdvanced = _chosenQuizId.toLowerCase() === ADVANCED;
+  const icon = isAdvanced ? 'school' : 'eco';
   quizMeta.innerHTML = `
-    <span class="topic__icon topic__icon--${_chosenQuizId.toLowerCase()}"></span>
+    <span class="topic__icon material-icons topic__icon--${_chosenQuizId.toLowerCase()}">${icon}</span>
     <h3 class="quiz__result-title">${_chosenQuizData.title}</h3>
     `
   
@@ -241,6 +250,8 @@ const renderQuestionsPage = () => {
  * Renders the result page
  */
 const renderResultsPage = () => {
+  const isAdvanced = _chosenQuizId.toLowerCase() === ADVANCED;
+  const icon = isAdvanced ? 'school' : 'eco';
   const quizMain = document.querySelector(".german-quiz__main");
   quizMain.innerHTML = `
         <div class="quiz__intro">
@@ -253,7 +264,7 @@ const renderResultsPage = () => {
         <div class="quiz__results-container">
           <div class="quiz__results">
             <header class="quiz__meta">
-              <span class="topic__icon topic__icon--${_chosenQuizData.title.toLowerCase()}"></span>
+              <span class="topic__icon material-icons topic__icon--${_chosenQuizData.title.toLowerCase()}">${icon}</span>
               <h3 class="quiz__result-title">${_chosenQuizData.title}</h3>
             </header>
             <p class="quiz__result">
