@@ -5,7 +5,7 @@ const BEGINNER = "beginner";
 let _quizData = null;
 let _chosenQuizId = ''; // ID of the chosen quiz
 let _chosenQuizData = null; // Object containing the data for the chosen quiz
-let _questionCounter = 0; // Counter for the current question
+let _questionCounter = 10; // Counter for the current question
 let _isAnswerSubmitted = false; // Boolean if the user chose an answer
 let _answerId = -1; // ID of the chosen answer
 let _correctAnswersCounter = 0;
@@ -99,10 +99,15 @@ const renderQuestionsPage = () => {
         <div class="quiz__answers-container">
           <ul class="quiz__answers">
             ${_chosenQuizData.questions[_questionCounter].options.map((option, index) => {
+              /*
+              if(_isAnswerSubmitted){
+                getAnswerStatus(index);
+              }
+              */
+
               return `
                 <li class="quiz__answer quiz__answer--${index}  
-                ${_isAnswerSubmitted
-                  ? getAnswerStatus(index) : index === _answerId ? "quiz__answer--chosen" : ""}"
+                ${index === _answerId ? "quiz__answer--chosen" : ""}"
                 data-answer-id = "${index}">
                   <span class="quiz-answer__icon">${index}</span>
                   <span class="quiz-answer__text">${option.text}</span>
@@ -112,12 +117,10 @@ const renderQuestionsPage = () => {
           </ul>
           
 
+          <button class="btn btn--submit-answer">Submit Answer</button>
           
-          ${_isAnswerSubmitted 
-            ? (_answerId >= 0 
-                ? `<button class="btn btn--next-question">Next Question</button>`
-                : `<button class="btn btn--submit-answer">Submit Answer</button>`) 
-            : `<button class="btn btn--submit-answer">Submit Answer</button>`}
+
+            
 
          
               
@@ -146,13 +149,15 @@ const renderQuestionsPage = () => {
 
     const btnSubmitAnswer = quizMain.querySelector(".btn--submit-answer");
     if(btnSubmitAnswer){
-      btnSubmitAnswer.addEventListener("click", onSubmitAnswer);
+      btnSubmitAnswer.addEventListener("click", onSubmitAnswer2);
     }
 
+    /*
     const btnNextQuestion = quizMain.querySelector(".btn--next-question");
     if(btnNextQuestion){
       btnNextQuestion.addEventListener("click", onNextQuestion);
     }
+    */
 }
 
 
@@ -194,6 +199,44 @@ const renderInitialPage = () => {
  */
 
 
+const onSubmitAnswer2 = (e) => {
+  _isAnswerSubmitted = true;
+  _isQuestionsPageActive = true;
+
+
+  // Error no answer chosen
+  if(_answerId < 0){
+    render();
+    return;
+  }
+
+
+  // 🔹 Store user's answer
+  
+  if(_answerId >= 0){
+    const currentQuestion = _chosenQuizData.questions[_questionCounter];
+    _userAnswers.push({
+      "question-id": currentQuestion.id,
+      "answer-id": currentQuestion.options[_answerId].id
+    });
+
+    _answerId = -1;
+    _isAnswerSubmitted = false;
+    _questionCounter++;
+    if (_questionCounter >= _chosenQuizData.questions.length) {
+      _isQuestionsPageActive = false;
+      _isResultsPageActive = true;
+    }
+
+    render()
+  }
+
+
+ 
+}
+
+
+/*
 const onSubmitAnswer = (e) => {
   _isAnswerSubmitted = true;
   _isQuestionsPageActive = true;
@@ -211,6 +254,7 @@ const onSubmitAnswer = (e) => {
   render();
   _isAnswerSubmitted = false;
 };
+*/
 
 /**
  * Callback for the next question button
@@ -273,6 +317,8 @@ const onGetResults = async (e) => {
       const responseData = await response.json();
       alert(responseData.message); // Show success message
       _isEmailSubmitted = true;
+      _isResultsPageActive = true;
+      render();
     } else {
       const errorData = await response.json();
       alert(`Error: ${errorData.error}`); // Show error message
@@ -371,6 +417,7 @@ const onPlayAgain = (e) => {
   _answerId = -1;
   _correctAnswersCounter = 0;
   _userAnswers = []; // Reset answers
+  _isResultsPageActive = false;
   _isInitPageActive = true;
   render();
 };
