@@ -6,6 +6,7 @@ Fix bug that when you haven't chosen an answer and you submit then the correct i
 fix error with the position of the progress bar: It needs to appear on the same height as the last element of the options.
 Create Icons for beginners and advanced.
 Make the quiz start for beginners/advanced from 0
+Remove unsued code for the icons for the different types of quizes. 
 
 
 
